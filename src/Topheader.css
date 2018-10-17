@@ -1,0 +1,102 @@
+*{
+    box-sizing:border-box;
+    margin: 0px;
+}
+.Topheader{
+    margin: 0px;
+    height:30px;
+    background-color: #474747;
+    color: aliceblue
+}
+body{
+    height: 100%;
+}
+.bg{
+    background: url("backgroundforlogin.jpg") no-repeat center center fixed; 
+    height: 620px;
+    background-size: cover;
+    filter: blur(1px);
+}
+.loginforms{
+    background-color: rgba(0,0,0, 0.4);
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 62%;
+    left: 68%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 46%;
+    height:40%;
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.logintext{
+        padding-bottom: 55px;
+        font-size: 30px;
+}
+.logoinlogin{
+z-index:2;
+    /* z-index: 3; */
+    position: absolute;
+    top: 20px;
+    right: 90px;
+    width: 50px;
+    height: 50px;
+}
+.Login{
+    color: white;
+    position: absolute;
+    right: 121px;
+    top: 2px;
+    text-decoration: none !important;
+}
+.Register{
+    color: white;
+    position: absolute;
+    right: 40px;
+    top: 2px;
+    text-decoration: none !important;
+}
+.login{
+    background-color: rgb(70, 75, 74);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    opacity: 0.9;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+.Email{
+    padding: 5px;
+    border-radius: 20px;
+    width: 42%;
+
+}
+.email{
+    float: left;
+    padding-right: 15px;
+    padding-left: 122px;
+
+}
+.password{
+
+
+}
+.Password{
+    float: right;
+    position: absolute;
+    left: 48%;
+    top:62%;
+    border-radius: 16px;
+    width: 40%;
+    padding: 4px;
+}

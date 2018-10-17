@@ -1,0 +1,40 @@
+.bgimage{
+    background: url("backgroundimageregister.jpeg") 
+    no-repeat center center fixed; 
+    height: 620px;
+    background-size: cover;
+    filter: blur(1px);
+}
+.registerform{
+    background-color: rgba(0,0,0, 0.4);
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 76%;
+    padding: 27px;
+    text-align: center;
+    height: 45%;
+}
+.registertext{
+    padding-bottom: 30px;
+    font-size: 30px;
+}    
+.registerbutton{
+    background-color: rgb(70, 75, 74);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    opacity: 0.9;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}

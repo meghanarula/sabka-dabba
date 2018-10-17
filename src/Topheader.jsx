@@ -1,17 +1,22 @@
 import React, { Component } from 'react';
+import './Topheader.css';
 import {Link} from 'react-router-dom';
 
-
 class Topheader extends Component {
-    state = {  }
+    constructor(){
+        super();
+    }
+   
     render() {
         return (
-            <div>
-                <React.Fragment>
-            <Link to="/Login">Log In</Link>
-            <Link to="/Register">Register</Link>
-         </React.Fragment></div>
-            
+            <div className='Topheader' >
+                <div>
+                   <Link className="Login" to="/Login">Login</Link>
+                </div>  
+                <div>
+                   <Link className="Register" to="/Register">Register</Link> 
+                </div>
+            </div>  
         );
     }
 }
